@@ -9,10 +9,6 @@ const LeftNavbar = () => {
       .then((data) => setCategories(data.data.news_category));
   }, []);
 
-  //   {
-  //     "category_id": "01",
-  //     "category_name": "Breaking News"
-  //   }
 
   return (
     <div>
